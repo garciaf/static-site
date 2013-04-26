@@ -1,16 +1,29 @@
 ---
-title: contact 
+title: Contact 
+contactClass: active
 ---
 
-.row
-  %h1 Contact
-  %ul.vcard
-    %li.fn Gaius Baltar
-    %li.street-address 123 Colonial Ave.
-    %li.locality Caprica City
-    %li
-      %span.state> Caprica
-      ,
-      %span.zip 12345
-    %li.email
-      %a{:href => "#"} g.baltar@cmail.comd
+%header
+  .row
+    .twelve.columns
+      %h1 
+        %li.icon-envelope.icon-2x
+        Contact
+%section#main
+  .row
+    .twelve.columns
+      %p
+        = lorem.paragraphs 1 
+    .six.columns
+      %ul.vcard
+        %li.fn Gaius Baltar
+        %li.street-address 123 Colonial Ave.
+        %li.locality Caprica City
+        %li
+          %span.state> Caprica
+          ,
+          %span.zip 12345
+        %li.email
+          %a{:href => "#"} g.baltar@cmail.comd
+    .six.columns
+      %iframe{:frameborder => "0", :height => "350", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => "http://maps.google.fr/maps?q=52.51246,13.397827&num=1&ie=UTF8&t=m&rq=1&split=0&sll=52.51246,13.397827&sspn=0.185541,0.441513&ll=52.51246,13.397827&spn=0.185541,0.441513&z=11&output=embed", :width => "100%"}

@@ -15,20 +15,24 @@
     = javascript_include_tag "foundation/modernizr.foundation"
     
   %body{:class => page_classes}
-    %nav.top-bar
+    %nav.top-bar.container
       %ul.title-area
         %li.name
           %h1
-            =link_to 'Project', '/index.html' 
+            =link_to 'Project', '/index.html'
+        %li.toggle-topbar
+          %a
       %section.top-bar-section
         %ul.left
           %li.divider
-          %li.active
-            =link_to 'Home', '/index.html' 
+          %li{:class => data.page.homeClass}
+            =link_to '<i class="icon-home"></i> Home', '/index.html' 
           %li.divider
-          %li.active
-            =link_to 'Contact', '/contact.html' 
+          %li{:class => data.page.contactClass}
+            =link_to '<i class="icon-envelope"></i> Contact', '/contact.html' 
           %li.divider
+          %li{:class => data.page.priceClass}
+            =link_to '<i class="icon-money"></i> Price', '/price.html' 
            
     = yield
     / Application Javascript, safe to override

@@ -1,9 +1,28 @@
 // Your custom settings file to override Foundation defaults
 @import "settings";
 
+@import "font-awesome.sass";
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
+header {
+  background-color: #2ba6cb;
+  padding: 22px 0;
+  h1 {
+    color: #fff;
+    font-weight: 500;
+  }
+}
+.container.top-bar {
+  margin-bottom: 0;
+}
+#main {
+  margin-top: 44px;
+  margin-bottom: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
 // ----------------------------------------
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing

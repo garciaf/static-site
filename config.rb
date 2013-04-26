@@ -4,6 +4,7 @@
 
 # ZURB Foundation
 require "zurb-foundation"
+require "yaml"
 
 # Change Compass configuration
 compass_config do |config|
@@ -19,6 +20,7 @@ end
 # With no layout
 page "robots.txt", :layout => false
 page "humans.txt", :layout => false
+page ".htaccess", :layout => false
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
@@ -50,6 +52,15 @@ page "humans.txt", :layout => false
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+
+activate :deploy do |deploy|
+  config = YAML.load_file("config/parameter.yml")
+  deploy.method = :ftp
+  deploy.host = config['deploy']['host']
+  deploy.user = config['deploy']['user']
+  deploy.password = config['deploy']['password']
+  deploy.path = config['deploy']['path']
+end
 
 # Build-specific configuration
 configure :build do

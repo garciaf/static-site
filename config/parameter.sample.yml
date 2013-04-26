@@ -1,0 +1,5 @@
+deploy:
+  user: "root"
+  password: "root"
+  host: "ftp.exemple.com"
+  path: "/path"

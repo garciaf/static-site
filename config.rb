@@ -5,6 +5,7 @@
 # ZURB Foundation
 require "zurb-foundation"
 require "yaml"
+config = YAML.load_file("config/parameter.yml")
 
 # Change Compass configuration
 compass_config do |config|
@@ -54,7 +55,6 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 activate :deploy do |deploy|
-  config = YAML.load_file("config/parameter.yml")
   deploy.method = :ftp
   deploy.host = config['deploy']['host']
   deploy.user = config['deploy']['user']

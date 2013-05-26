@@ -1,30 +1,28 @@
 // Your custom settings file to override Foundation defaults
 @import "settings";
 
+@import "compass/css3";
+
 @import "font-awesome";
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 
+$title-color: #1D6F8A;
+
 header {
-  >#home{
-    background-color: transparent;
-    h1 {
-    color: black;
-    font-weight: 500;
-    }
-  }
-  background-color: #2ba6cb;
+  background-color: $title-color;
   padding: 22px 0;
   h1 {
     color: #fff;
     font-weight: 500;
   }
+  h2 {
+    color: #fff;
+  }
 }
-#home{
-  background-color: transparent;
-  h1 {
-  color: black;
-  font-weight: 500;
+#main{
+  h2 {
+    color: $title-color;
   }
 }
 .container.top-bar {
@@ -41,7 +39,6 @@ header {
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
 
-// @import "compass/css3";
 // @import "foundation/settings";
 // @import "foundation/functions/all";
 

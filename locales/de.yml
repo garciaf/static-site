@@ -1,0 +1,31 @@
+---
+de:
+  title: Henke Registrierkassen
+  home:
+    title: "Über uns"
+    page_title: "Über uns"
+    
+    subtitle1: Unser Qualitätsanspruch
+    paragraph1: "Unsere Vision ist es , die Erwartungen unserer Kunden mit zuverlässigen Produkten in überragender Qualität und Design , zu übertreffen."
+
+    subtitle2: Wir bieten Ihnen
+    paragraph2: |
+      Komplette Lösungen für Gastronomie und Einzelhandel.
+      Außergewöhnliche Zuverlässigkeit und Robustheit unserer Produkte.
+      Hohe Kundenzufriedenheit durch konsequente Bereitstellung hochwertiger Produkte und Serviceleistung.
+      Ein Team  , welches sich sich ausschließlich Kunden spezifischen Anpassungen widmet.
+      Selbstverständlich eine 24 Stunden Kundenhotline.
+
+  contact:
+    page_title: Kontakt
+    title: Kontakt
+    name: Henke Registrierkassen
+    adress: Charlottenstrasse 52
+    city: Berlin
+    tel: 0177 422 71 21
+    email: mail@example.com
+    url: "https://maps.google.de/maps?q=Charlottenstrasse+52+Berlin&ie=UTF8&hl=en&hq=&hnear=Charlottenstra%C3%9Fe+52,+10117+Berlin&ll=52.5144,13.39109&spn=0.009167,0.02017&t=m&z=14&output=embed"
+
+  products:
+    page_title: Produkte
+    title: Produkte

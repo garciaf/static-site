@@ -54,6 +54,8 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+activate :i18n ,  :mount_at_root => :de
+
 activate :deploy do |deploy|
   deploy.method = :ftp
   deploy.host = config['deploy']['host']

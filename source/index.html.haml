@@ -1,15 +1,22 @@
 ---
-title: Home 
-homeClass: active
+title: Home
 ---
 %header
   .row
     .twelve.columns
       %h1
         %li.icon-home.icon-2x 
-        Home 
+        = I18n.t 'home.title' 
 %section#main
   .row
     .twelve.columns
+      %h2
+        = I18n.t 'home.subtitle1'
       %p
-        = lorem.paragraphs 1 
+        = I18n.t 'home.paragraph1'
+  .row
+    .twelve.columns
+      %h2
+        = I18n.t 'home.subtitle2'
+      %p
+        = I18n.t 'home.paragraph2'

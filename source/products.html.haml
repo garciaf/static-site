@@ -1,0 +1,20 @@
+---
+title: Products
+---
+%header
+  .row
+    .twelve.columns
+      %h1 
+        %li.icon-2x 
+          = I18n.t ('products.title') 
+%section#main
+  .height.columns
+    .row
+      - data.products.each do |p|
+        .large-6.columns
+          = image_tag p.img
+          .panel
+            %h5 
+              = p.title
+            %h6.subheader 
+              = p.content

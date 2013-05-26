@@ -13,27 +13,30 @@
     / Included CSS Files
     = stylesheet_link_tag "app"
     = javascript_include_tag "foundation/modernizr.foundation"
-    
+    %link{:href => "/contact.html", :rel => "prerender"}/
+    %link{:href => "/products.html", :rel => "prerender"}/
+    %link{:href => "/index.html", :rel => "prerender"}/
   %body{:class => page_classes}
     %nav.top-bar.container
       %ul.title-area
         %li.name
           %h1
-            =link_to 'Project', '/index.html'
+            =link_to I18n.t(:title), '/index.html'
         %li.toggle-topbar
           %a
       %section.top-bar-section
         %ul.left
           %li.divider
-          %li{:class => data.page.homeClass}
-            =link_to '<i class="icon-home"></i> Home', '/index.html' 
+          %li{:class => data.page.title == "Home" ? "active" : "" }
+            =link_to "<i class='icon-home'></i> #{I18n.t('home.page_title')}", '/index.html' 
           %li.divider
-          %li{:class => data.page.contactClass}
-            =link_to '<i class="icon-envelope"></i> Contact', '/contact.html' 
+          %li{:class => data.page.title == "Contact" ? "active" : ""}
+            =link_to "<i class='icon-envelope'></i> #{I18n.t('contact.page_title')}", '/contact.html' 
           %li.divider
-          %li{:class => data.page.priceClass}
-            =link_to '<i class="icon-money"></i> Price', '/price.html' 
-           
+          %li{:class => data.page.title == "Products" ? "active" : ""}
+            =link_to "#{I18n.t('products.page_title')}", '/products.html' 
+          %li.divider
+
     = yield
     / Application Javascript, safe to override
     = javascript_include_tag "app"

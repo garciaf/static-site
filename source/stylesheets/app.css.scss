@@ -6,11 +6,25 @@
 @import "foundation";
 
 header {
+  >#home{
+    background-color: transparent;
+    h1 {
+    color: black;
+    font-weight: 500;
+    }
+  }
   background-color: #2ba6cb;
   padding: 22px 0;
   h1 {
     color: #fff;
     font-weight: 500;
+  }
+}
+#home{
+  background-color: transparent;
+  h1 {
+  color: black;
+  font-weight: 500;
   }
 }
 .container.top-bar {

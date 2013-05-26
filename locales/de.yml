@@ -4,7 +4,7 @@ de:
   home:
     title: "Über uns"
     page_title: "Über uns"
-    
+
     subtitle1: Unser Qualitätsanspruch
     paragraph1: "Unsere Vision ist es , die Erwartungen unserer Kunden mit zuverlässigen Produkten in überragender Qualität und Design , zu übertreffen."
 
@@ -21,7 +21,7 @@ de:
     title: Kontakt
     name: Henke Registrierkassen
     adress: Charlottenstrasse 52
-    city: Berlin
+    city: 13156 Berlin
     tel: 0177 422 71 21
     email: mail@example.com
     url: "https://maps.google.de/maps?q=Charlottenstrasse+52+Berlin&ie=UTF8&hl=en&hq=&hnear=Charlottenstra%C3%9Fe+52,+10117+Berlin&ll=52.5144,13.39109&spn=0.009167,0.02017&t=m&z=14&output=embed"

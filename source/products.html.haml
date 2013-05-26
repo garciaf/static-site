@@ -12,7 +12,10 @@ title: Products
     .row
       - data.products.each do |p|
         .large-6.columns
-          = image_tag p.img
+
+          - if p.img != ""
+            = image_tag p.img
+
           .panel
             %h5 
               = p.title

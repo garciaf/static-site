@@ -1,6 +1,8 @@
 source :rubygems
 
-gem "middleman"
+gem "middleman", "3.0.14"
 gem "middleman-minify-html"
-gem "middleman-deploy", "~> 0.0.11"
-gem "zurb-foundation", "~> 3.2"
+gem "middleman-deploy"
+gem 'compass'
+gem "zurb-foundation"
+gem 'json', '~> 1.7.7'

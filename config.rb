@@ -62,6 +62,8 @@ activate :deploy do |deploy|
   deploy.user = config['deploy']['user']
   deploy.password = config['deploy']['password']
   deploy.path = config['deploy']['path']
+  deploy.after_build = true
+
 end
 
 # Build-specific configuration

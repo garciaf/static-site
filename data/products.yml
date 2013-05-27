@@ -14,54 +14,54 @@
     zeitgesteuerte Happy Houer Steuerung
     uvm
 - 
-  title: prod-tm
+  title: 
   img: prod-tm.gif
   content: |
     Funkanbindung über PDA/WLAN - Basis mit allen Kassenfunktionen
     lauffähig auf aktueller Touch Hardware mit Windows
 -
-  title: fec ap 3435
+  title: 
   img: fec-ap-3435.png
   content: |
     FEC Aer POS ist ein elegantes und perfekt abgestimmtes variabel einsetzbares Kassensystem mit hohem Leistungsvermögen und einem schlanken Design , ein Highlight an jedem Kassenplatz.
     Eine optimale Verbindung mit einem Prepos Touch Master System.
 -
-  title: Fec pos
+  title: 
   img: fec-pos.png
   content: |
     Glaive D ist ein lüfterloses Kassensystem mit Aluminiumgehäuse und Intel Atom Prozessor.
     Vielseitige Anschlussmöglichkeiten für optionale Perepherie machen das System perfekt für anspruchsvolle Anwendungen.
 -
-  title: Fec kunden display 
+  title:
   img: fec-produkte.png
   content: |
     Kundendisplay bieten vielfältige Möglichkeiten Ihr POS Terminal variabel zu gestalten .
     Zur Auswahl stehen LCD Panels mit LED Beleuchtung oder selbstleuchtende VFD Panels.
     Jedes Modell ist in Höhe , Neigung und Ausrichtung flexibel und kann individuell programmiert werden.
 -
-  title: Scanner 2
+  title:
   img: scanner-2.jpg
   content: |
     Scanner zur Erfassung und Registrierung Ihrer Produkte.
 -
-  title: Drucker birch
+  title:
   img: drucker-birch.jpg
   content: |
     POS Drucker für Bestellbons sowie Rechnungen und Kassenberichte.
 -
-  title: Schublade
+  title:
   img: schublade.jpg
   content: |
     Kassenschubladen zur Komplettierung Ihres POS Systems
 -
-  title: Stiftschloss_rfid
+  title:
   img: stiftschloss_rfid.jpg
   content: |
     Kellnerschloss und elektronische Kellnerschlüssel zur Identifikation Ihrer Mitarbeiter und Vergabe individueller Berechtigungsstufen an Ihrem Kassensystem.
 -
-  title: Ax3k_1 / ax3k_21
+  title: Uniwell AX - 3000
   img: ax3k_21.jpg
-  content: Uniwell AX - 3000
+  content: ""
 -
   title: Touch Kassensystem von UNIWELL
   img: ""

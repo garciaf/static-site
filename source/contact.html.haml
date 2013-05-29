@@ -21,7 +21,7 @@ title: Contact
         %li.tel 
           = I18n.t 'contact.tel'
         %li.email
-          %a{:href => "#{I18n.t 'contact.email'}"} 
+          %a{:href => "mailto:#{I18n.t 'contact.email'}"} 
             = I18n.t 'contact.email'
     .six.columns
       %iframe{:frameborder => "0", :height => "350", :marginheight => "0", :marginwidth => "0", :scrolling => "no", :src => I18n.t('contact.url'), :width => "100%"}

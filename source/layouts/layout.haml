@@ -9,7 +9,7 @@
     %meta{:charset => "utf-8"}/
     / Set the viewport width to device width for mobile
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
-    %title= data.page.title || "ZURB Foundation"
+    %title= data.page.title
     / Included CSS Files
     = stylesheet_link_tag "app"
     = javascript_include_tag "foundation/modernizr.foundation"
@@ -27,7 +27,7 @@
             %i.icon-reorder 
             Menu
             
-      %section.top-bar-section
+      %section.
         %ul.left
           %li.divider
           %li{:class => data.page.title == "Home" ? "active" : "" }
